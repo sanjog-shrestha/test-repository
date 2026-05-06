@@ -30,11 +30,6 @@ No API keys. No custom scripts. Just natural language → real GitHub actions.
 You  →  VS Code / Claude Code  →  Zapier MCP  →  GitHub API
 ```
 
-<!-- ARCHITECTURE DIAGRAM: Replace with a diagram showing the flow: VS Code → Zapier MCP → GitHub -->
-![Architecture Diagram](images/architecture.png)
-
----
-
 ## Prerequisites
 
 | Requirement | Version | Notes |
