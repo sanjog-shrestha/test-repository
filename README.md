@@ -2,8 +2,6 @@
 
 > Automate GitHub workflows using natural language — directly from your code editor via Zapier MCP.
 
-<!-- BANNER IMAGE: Replace with a screenshot of your VS Code + Zapier MCP setup in action -->
-![Project Banner](images/banner.png)
 
 ---
 
