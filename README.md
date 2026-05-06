@@ -53,8 +53,6 @@ You  →  VS Code / Claude Code  →  Zapier MCP  →  GitHub API
 
 ### 1. Connect Zapier MCP to VS Code
 
-<!-- SCREENSHOT: mcp.zapier.com → click "+ New MCP Server" → select "Visual Studio Code" -->
-![Zapier MCP New Server](images/step1-zapier-new-server.png)
 
 **Option A — One-click (recommended):**
 
@@ -62,10 +60,6 @@ You  →  VS Code / Claude Code  →  Zapier MCP  →  GitHub API
 2. Click **+ New MCP Server**
 3. Select **Visual Studio Code** from the agents list
 4. Click the purple **"Add to Visual Studio Code"** button
-
-<!-- SCREENSHOT: The "Add to Visual Studio Code" purple button on the Connect tab -->
-![Add to VS Code Button](images/step1-add-to-vscode.png)
-
 VS Code will open automatically and add the configuration for you.
 
 **Option B — Manual configuration:**
@@ -95,7 +89,8 @@ Paste the following:
 ### 2. Add GitHub as a connected app
 
 <!-- SCREENSHOT: The "Apps" tab on your Zapier MCP server page — click "Add app" and search GitHub -->
-![Zapier Apps Tab](images/step2-apps-tab.png)
+<img width="1578" height="682" alt="image" src="https://github.com/user-attachments/assets/ac2dfb3d-ae7b-4a73-bafe-ffea9f370f89" />
+
 
 1. On [mcp.zapier.com](https://mcp.zapier.com), click the **Apps** tab
 2. Click **"Add app"** → search for **GitHub**
@@ -103,33 +98,6 @@ Paste the following:
 4. GitHub actions are now available as MCP tools
 
 <!-- SCREENSHOT: GitHub listed as a connected app with available tools shown -->
-![GitHub Connected](images/step2-github-connected.png)
-
----
-
-### 3. Configure Claude Code (alternative)
-
-<!-- SCREENSHOT: Claude Code terminal after running /mcp showing the config editor -->
-![Claude Code MCP Config](images/step3-claude-code-mcp.png)
-
-If you're using **Claude Code** instead of GitHub Copilot Chat, run `/mcp` inside Claude Code and add:
-
-```json
-{
-  "mcpServers": {
-    "zapier": {
-      "type": "sse",
-      "url": "https://mcp.zapier.com/api/v1/connect"
-    }
-  }
-}
-```
-
-Or edit the config file directly:
-
-- **Mac/Linux:** `~/.claude/settings.json`
-- **Windows:** `%APPDATA%\Claude\settings.json`
-
 ---
 
 ## Usage
@@ -137,7 +105,8 @@ Or edit the config file directly:
 Once connected, open your AI chat panel in VS Code and use natural language:
 
 <!-- SCREENSHOT: VS Code AI chat panel showing a successful @zapier tool call response -->
-![VS Code Chat with Zapier](images/usage-vscode-chat.png)
+<img width="1578" height="682" alt="image" src="https://github.com/user-attachments/assets/62d1216d-6606-46d5-a055-1b83f924209c" />
+
 
 ```
 list all available zapier tools
@@ -155,8 +124,8 @@ list all available zapier tools
 @zapier close issue #5 in my-org/my-repo and add comment "Fixed in v1.2"
 ```
 
-<!-- SCREENSHOT: The resulting GitHub issue created via the MCP prompt above -->
-![GitHub Issue Created](images/usage-github-issue.png)
+<img width="1691" height="742" alt="image" src="https://github.com/user-attachments/assets/d7aed2ae-e4e2-4982-bbf9-cf2fef3982ef" />
+
 
 ---
 
@@ -204,5 +173,5 @@ list all available zapier tools
 ---
 
 ## License
-
+Sanjog Shrestha
 MIT © 2026
