@@ -137,9 +137,6 @@ list all available zapier tools
 
 ## Troubleshooting
 
-<!-- SCREENSHOT: The History tab on mcp.zapier.com showing MCP call logs with inputs and outputs -->
-![Zapier History Tab](images/troubleshoot-history.png)
-
 **MCP server not showing up in VS Code**
 - Run `Cmd+Shift+P` → `MCP: List Servers` to verify the connection
 - Restart VS Code after adding the config
